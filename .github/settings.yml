@@ -1,22 +1,15 @@
-repository:
-  name: settings
-  description: Pull Requests for GitHub repository settings
-  homepage: https://github.com/apps/xbot-settings
-  topics: probot-app, github-app
-  has_wiki: false
-  
   # These settings are synced to GitHub by https://probot.github.io/apps/settings/
-repository:
+  repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
 
   # The name of the repository. Changing this will rename the repository
-  name: xbot-setting
+  name: xbot-settings
 
   # A short description of the repository that will show up on GitHub
   description: description of repo
 
   # A URL with more information about the repository
-  homepage: https://github.com/apps/xbot-setting
+  homepage: https://github.com/apps/xbot-settings
 
   # A comma-separated list of topics to set on the repository
   topics: github, probot
